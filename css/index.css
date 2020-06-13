@@ -1,0 +1,257 @@
+body{
+    margin: 0px;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.margin-top-28{
+    margin-top: 28px;
+}
+
+.margin-top-8{
+    margin-top: 8px;
+}
+
+.margin-top-12{
+    margin-top: 12px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-0{
+    margin-bottom: 0px;
+}
+
+.margin-bottom-18{
+    margin-bottom: 18px;
+}
+
+.margin-top-6{
+    margin-top: 6px;
+}
+
+.margin-top-14{
+    margin-top: 14px;
+}
+
+.margin-top-16{
+    margin-top: 16px;
+}
+
+.margin-left-4{
+    margin-left: 4px;
+}
+
+.margin-left-18{
+    margin-left: 18px;
+}
+
+.margin-left-12{
+    margin-left: 12px;
+}
+
+.font-size-smaller{
+    font-size: smaller;
+}
+
+.font-style-italic{
+    font-style: italic;
+}
+
+.width-618{
+    width: 618px;
+}
+
+.width-690{
+    width: 690px;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+.display-none{
+    display: none;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.boy-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.boy-div{
+    background-color: pink;
+}
+
+.cd-div{
+    background-color: antiquewhite;
+}
+
+.leftside, .rightside{
+    height: 30vh;
+    width: 100%;
+}
+
+.cd-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.discography{
+    margin-left: 14px;
+    margin-bottom: 18px;
+}
+
+.discography-songs{
+    margin-bottom: 24px;
+    margin-left: 40px;
+    display: -webkit-inline-box;
+}
+
+.song-name{
+    width: 50px;
+    display: inline-block;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.song-year{
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.buy-listen-buttons{
+    padding: 5px 16px 8px 16px;
+    font-size: 12px;
+}
+
+.active-playing-song{
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px){
+    .mobile-display-flex{
+        display: flex;
+    }
+
+    .width-618{
+        width: 300px!important;
+    }
+
+    .discography-songs{
+        margin-bottom: 24px;
+        margin-left: 18px!important;
+        display: -webkit-inline-box;
+    }
+
+    .mobile-margin-left-18{
+        margin-left: 18px;
+    }
+
+    .width-690{
+        width: 360px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+    .mobile-display-flex{
+        display: flex;
+    }
+
+    .mobile-margin-left-18{
+        margin-left: 4px;
+    }
+
+    .width-618{
+        width: 400px!important;
+    }
+
+    .width-690{
+        width: 458px;
+    }
+
+    .leftside, .rightside{
+        height: 23vh;
+        width: 100%;
+    }
+
+    .cd-image{
+        display: block;
+        margin-left: 62%;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .now-playing-div-ipad{
+        margin-left: 34%;
+    }
+    
+    .discography-ipad-div{
+        margin-top: 36px;
+    }
+
+    .album-list-ipad-div{
+        margin-top: 26px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .leftside, .rightside{
+        height: 23vh;
+        width: 100%;
+    }
+
+    
+    .cd-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 445px;
+    }
+
+    .cd-image-div-ipad-pot{
+        margin-left: 20%;
+    }
+
+    .now-playing-div-ipad-pot{
+        margin-left: 34%;
+    }
+
+    .fs-26-ipad-pot{
+        font-size: 26px;
+    }
+
+    .fs-19-ipad-pot{
+        font-size: 19px;
+    }
+
+    .fs-22-ipad-pot{
+        font-size: 22px;
+    }
+
+    .fs-17-ipad-pot{
+        font-size: 17px;
+    }
+
+    .margin-top-12{
+        margin-top: 0px;
+    }
+
+}
